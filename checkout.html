@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="my3.css">
+    </head>
+<body>
+        <div>
+        <button>Home</button>
+        <div>
+            <a href="Home.html">Homepage</a>
+            <a href="more.html">More</a>
+        </div>
+    </div>
+    <div>
+        <button>Products</button>
+        <div>
+            <a href="productform.html">Product info</a>
+            <a href="checkout.html">Checkout Form (ticket)</a>
+            <a href="checkout2.html">Checkout Form (popcorn)</a>
+        </div>
+    </div>
+    <div>
+        <button>Contact Us</button>
+    <div>
+        <a href="contactus.html">Contact form</a>
+    </div>
+    </div>
+</body>
+<body>
+    <h1 style="color:rgb(0, 0, 0)">Order & Payment Form</h1>
+    <table border="1" cellpadding="10" cellspacing="10" align="center" bgcolor="darkred" width="100%" style="color:white">
+        <tr>
+        <td>
+            <h1> Order Details </h1>
+            <h3>Select Quantity:</h3>
+            <form>
+            <select name="quantity" required>
+                <option select disabled>Default value</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>Other</option>
+            </select>
+            </form>
+            <br>
+            <h3>Select Payment Method:</h3>
+            <form>
+            <select name="payment" required>
+                <option select disabled>Default value</option>
+                <option>Credit card</option>
+                <option>Debit card</option>
+                <option>Cash on delivery</option>
+                <option>Bank transfer</option>
+            </select>
+            </form>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <h1>Payment Information</h1>
+            <form>
+                <input type="text" required>
+                <label>Full name</label><br>
+                <br>
+                <input type="email" required>
+                <label>Email Address</label><br>
+                <br>
+                <input type="password" required>
+                <label>Card number</label><br>
+                <br>
+                <input type="date">
+                <label>Expiry Date</label><br>
+                <br>
+                <input type="password">
+                <label>CVV</label><br>
+                <br>
+                <input type="text">
+                <label>Amount</label>
+            </form>
+        </td>
+        </tr>
+        <br>
+        <tr>
+        <td>
+        <input type="submit">
+        <label>Submit Order & Pay</label>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
